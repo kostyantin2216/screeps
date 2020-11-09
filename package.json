@@ -1,0 +1,29 @@
+{
+  "name": "screeps",
+  "version": "1.0.0",
+  "description": "Personal codebase for screeps (MMO sandbox game for programmers)",
+  "main": "main.js",
+  "scripts": {
+    "build": "grunt build",
+    "push": "grunt public",
+    "public": "grunt watch:public",
+    "private": "grunt watch:private",
+    "simulation": "grunt watch:simulation"
+  },
+  "author": "Kostyantin Petrov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.158",
+    "@types/screeps": "^3.1.3",
+    "grunt": "^1.2.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-file-append": "0.0.7",
+    "grunt-jsbeautifier": "^0.2.13",
+    "grunt-rsync": "^3.0.0",
+    "grunt-screeps": "^1.4.0",
+    "grunt-string-replace": "^1.3.1",
+    "time-grunt": "^2.0.0"
+  },
+  "dependencies": {}
+}
